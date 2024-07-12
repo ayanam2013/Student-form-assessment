@@ -1,0 +1,18 @@
+{
+  "student": [
+    {
+      "studentName": "",
+      "dateOfBirth": "",
+      "nationality": "",
+      "gender": "",
+      "id": "fde6"
+    },
+    {
+      "id": "129a",
+      "studentName": "Avani",
+      "dateOfBirth": "2024-07-12",
+      "nationality": "INDIAN",
+      "gender": "female"
+    }
+  ]
+}

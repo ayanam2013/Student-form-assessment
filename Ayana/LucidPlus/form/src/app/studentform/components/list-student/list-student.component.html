@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-md-12">
+      <h4>STUDENTS ARE ....</h4><br>
+     
+    </div>
+    <div class="row">
+      <div class="col-md-6 card border-1 border-primary" *ngFor="let stud of item">
+          <ul>
+          <li>{{stud.studentName}}</li>
+          <li>{{stud.dateOfBirth}}</li>
+          <li>{{stud.nationality}}</li>
+          <li>{{stud.gender}}</li>
+        </ul>
+        <button (click)="deleteData(stud.id)">Delete</button>
+        <button (click)="Edit()">Edit Here</button>
+      </div>
+     
+    </div>
+   
